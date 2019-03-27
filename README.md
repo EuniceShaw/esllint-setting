@@ -2411,31 +2411,6 @@ Other Style Guides
     const x = y + 5;
     ```
 
-  <a name="19.5"></a>
-  <a name="whitespace--newline-at-end"></a>
-  - [19.5](#whitespace--newline-at-end) 文件结尾空一行. eslint: [`eol-last`](https://github.com/eslint/eslint/blob/master/docs/rules/eol-last.md)
-
-    ```javascript
-    // bad
-    import { es6 } from './AirbnbStyleGuide';
-      // ...
-    export default es6;
-    ```
-
-    ```javascript
-    // bad
-    import { es6 } from './AirbnbStyleGuide';
-      // ...
-    export default es6;↵
-    ↵
-    ```
-
-    ```javascript
-    // good
-    import { es6 } from './AirbnbStyleGuide';
-      // ...
-    export default es6;↵
-    ```
 
   <a name="19.6"></a>
   <a name="whitespace--chains"></a>
@@ -2647,19 +2622,7 @@ Other Style Guides
       .fail(() => console.log('You have failed this city.'));
     ```
 
-  <a name="19.13"></a>
-  <a name="whitespace--block-spacing"></a>
-  - [19.13](#whitespace--block-spacing) 作为语句的花括号内也要加空格 —— `{` 后和 `}` 前都需要空格。 eslint: [`block-spacing`](https://eslint.org/docs/rules/block-spacing)
 
-    ```javascript
-    // bad
-    function foo() {return true;}
-    if (foo) { bar = 0;}
-
-    // good
-    function foo() { return true; }
-    if (foo) { bar = 0; }
-    ```
 
   <a name="19.14"></a>
   <a name="whitespace--comma-spacing"></a>
@@ -2675,23 +2638,7 @@ Other Style Guides
     var arr = [1, 2];
     ```
 
-  <a name="19.15"></a>
-  <a name="whitespace--computed-property-spacing"></a>
-  - [19.15](#whitespace--computed-property-spacing) 计算属性内要空格。参考上述花括号和中括号的规则。  eslint: [`computed-property-spacing`](https://eslint.org/docs/rules/computed-property-spacing)
-
-    ```javascript
-    // bad
-    obj[foo ]
-    obj[ 'foo']
-    var x = {[ b ]: a}
-    obj[foo[ bar ]]
-
-    // good
-    obj[foo]
-    obj['foo']
-    var x = { [b]: a }
-    obj[foo[bar]]
-    ```
+ 
 
   <a name="19.16"></a>
   <a name="whitespace--func-call-spacing"></a>
@@ -2708,18 +2655,7 @@ Other Style Guides
     func();
     ```
 
-  <a name="19.17"></a>
-  <a name="whitespace--key-spacing"></a>
-  - [19.17](#whitespace--key-spacing) 在对象的字面量属性中， `key` `value` 之间要有空格。 eslint: [`key-spacing`](https://eslint.org/docs/rules/key-spacing)
-
-    ```javascript
-    // bad
-    var obj = { "foo" : 42 };
-    var obj2 = { "foo":42 };
-
-    // good
-    var obj = { "foo": 42 };
-    ```
+ 
 
   <a name="19.18"></a>
   <a name="whitespace--no-trailing-spaces"></a>
