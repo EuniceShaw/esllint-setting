@@ -1836,49 +1836,6 @@ Other Style Guides
     }
     ```
 
-  <a name="14.3"></a>
-  <a name="hoisting--named-expresions"></a>
-  - [14.3](#hoisting--named-expresions) 已命名函数表达式提升他的变量名，不是函数名或函数体
-
-    ```javascript
-    function example() {
-      console.log(named); // => undefined
-
-      named(); // => TypeError named is not a function
-
-      superPower(); // => ReferenceError superPower is not defined
-
-      var named = function superPower() {
-        console.log('Flying');
-      };
-    }
-
-    // 函数名和变量名一样是也如此
-    function example() {
-      console.log(named); // => undefined
-
-      named(); // => TypeError named is not a function
-
-      var named = function named() {
-        console.log('named');
-      };
-    }
-    ```
-
-  <a name="14.4"></a>
-  <a name="hoisting--declarations"></a>
-  - [14.4](#hoisting--declarations) 函数声明则提升了函数名和函数体
-
-    ```javascript
-    function example() {
-      superPower(); // => Flying
-
-      function superPower() {
-        console.log('Flying');
-      }
-    }
-    ```
-
   - 详情请见[JavaScript Scoping & Hoisting](http://www.adequatelygood.com/2010/2/JavaScript-Scoping-and-Hoisting/) by [Ben Cherry](http://www.adequatelygood.com/).
 
 **[⬆ back to top](#目录)**
