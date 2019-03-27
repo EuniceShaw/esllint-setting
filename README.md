@@ -3349,7 +3349,7 @@ Other Style Guides
 
   <a name="28.1"></a>
   <a name="testing--yup"></a>
-  - [30.1](#testing--yup) **Yup.**
+  - [28.1](#testing--yup) **Yup.**
 
     ```javascript
     function foo() {
