@@ -40,6 +40,7 @@ Other Style Guides
   1. [Comments](#comments)
   1. [Whitespace](#whitespace)
   1. [Commas](#commas)
+  1. [分号](#分号)
   1. [Type Casting & Coercion](#type-casting--coercion)
   1. [Naming Conventions](#naming-conventions)
   1. [Accessors](#accessors)
@@ -2811,7 +2812,10 @@ Other Style Guides
 
 **[⬆ back to top](#目录)**
 
+## 分号
+分号如果不加的话，一定要保证不能以 `(` 或 `[` 开头
 
+**[⬆ back to top](#目录)**
 
 ## Type Casting & Coercion
 
