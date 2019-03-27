@@ -1,22 +1,5 @@
-# Airbnb JavaScript 风格指南() {
-
-*JavaScript最合理的方法 A mostly reasonable approach to JavaScript*
-
-> **注意**: 这个指南假定你正在使用[Babel](https://babeljs.io)， 并且需要你使用或等效的使用[babel-preset-airbnb](https://npmjs.com/babel-preset-airbnb)。 同时假定你在你的应用里安装了带有或等效的[airbnb-browser-shims](https://npmjs.com/airbnb-browser-shims)的
-`shims/polyfills`
-
-[![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb.svg)](https://www.npmjs.com/package/eslint-config-airbnb)
-[![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb-base.svg)](https://www.npmjs.com/package/eslint-config-airbnb-base)
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/airbnb/javascript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
-这个指南支持的其他语言翻译版请看 [Translation](#translation)
-
-Other Style Guides
- - [ES5 (已废弃)](https://github.com/airbnb/javascript/tree/es5-deprecated/es5)
- - [React](react/)
- - [CSS-in-JavaScript](css-in-javascript/)
- - [CSS & Sass](https://github.com/airbnb/css)
- - [Ruby](https://github.com/airbnb/ruby)
+# JavaScript 风格指南
+适用于ES6版本，如果是ES5请自行降级
 
 ## 目录
 
