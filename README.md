@@ -2613,17 +2613,6 @@ Other Style Guides
     console.log(foo[0]);
     ```
 
-  <a name="19.11"></a>
-  <a name="whitespace--in-braces"></a>
-  - [19.11](#whitespace--in-braces) 花括号里加空格。 eslint: [`object-curly-spacing`](http://eslint.org/docs/rules/object-curly-spacing.html)
-
-    ```javascript
-    // bad
-    const foo = {clark: 'kent'};
-
-    // good
-    const foo = { clark: 'kent' };
-    ```
 
   <a name="19.12"></a>
   <a name="whitespace--max-len"></a>
