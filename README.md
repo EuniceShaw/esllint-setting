@@ -1718,40 +1718,6 @@ Other Style Guides
     // `const` 也是如此
     ```
 
-  <a name="13.6"></a>
-  <a name="variables--unary-increment-decrement"></a>
-  - [13.6](#variables--unary-increment-decrement) 不要使用一元自增自减运算符（`++`， `--`）. eslint [`no-plusplus`](http://eslint.org/docs/rules/no-plusplus)
-
-    > Why? 根据eslint文档，一元增量和减量语句受到自动分号插入的影响，并且可能会导致应用程序中的值递增或递减的无声错误。 使用`num + = 1`而不是`num ++`或`num ++`语句来表达你的值也是更有表现力的。 禁止一元增量和减量语句还会阻止您无意地预增/预减值，这也会导致程序出现意外行为。
-
-    ```javascript
-      // bad
-
-      let array = [1, 2, 3];
-      let num = 1;
-      num++;
-      --num;
-
-      let sum = 0;
-      let truthyCount = 0;
-      for(let i = 0; i < array.length; i++){
-        let value = array[i];
-        sum += value;
-        if (value) {
-          truthyCount++;
-        }
-      }
-
-      // good
-
-      let array = [1, 2, 3];
-      let num = 1;
-      num += 1;
-      num -= 1;
-
-      const sum = array.reduce((a, b) => a + b, 0);
-      const truthyCount = array.filter(Boolean).length;
-    ```
 
   <a name="13.7"></a>
   <a name="variables--linebreak"></a>
