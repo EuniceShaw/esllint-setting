@@ -20,37 +20,36 @@ Other Style Guides
 
 ## 目录
 
-  1. [Types](#types)
-  1. [References](#references)
-  1. [Objects](#objects)
-  1. [Arrays](#arrays)
-  1. [Destructuring](#destructuring)
-  1. [Strings](#strings)
-  1. [Functions](#functions)
-  1. [Arrow Functions](#arrow-functions)
-  1. [Classes & Constructors](#classes--constructors)
-  1. [Modules](#modules)
-  1. [Iterators and Generators](#iterators-and-generators)
-  1. [Properties](#properties)
-  1. [Variables](#variables)
-  1. [Hoisting](#hoisting)
-  1. [Comparison Operators & Equality](#comparison-operators--equality)
-  1. [Blocks](#blocks)
-  1. [Control Statements](#Control-Statements)
-  1. [Comments](#comments)
-  1. [Whitespace](#whitespace)
+  1. [类型](#类型)
+  1. [参考](#参考)
+  1. [对象](#对象)
+  1. [数组](#数组)
+  1. [解构赋值](#解构赋值)
+  1. [字符串](#字符串)
+  1. [函数](#函数)
+  1. [箭头函数](#arrow-functions)
+  1. [类和构造函数](#类和构造函数)
+  1. [模块](#模块)
+  1. [迭代器和生成器](#迭代器和生成器)
+  1. [属性](#属性)
+  1. [变量](#变量)
+  1. [提升](#提升)
+  1. [比较运算符](#比较运算符)
+  1. [语句块](#语句块)
+  1. [控制语句](#控制语句)
+  1. [注释](#注释)
+  1. [空格](#空格)
   1. [Commas](#commas)
   1. [分号](#分号)
-  1. [Type Casting & Coercion](#type-casting--coercion)
-  1. [Naming Conventions](#naming-conventions)
-  1. [Accessors](#accessors)
-  1. [Events](#events)
+  1. [类型转换](#类型转换)
+  1. [命名规则](#命名规则)
+  1. [访问器](#访问器)
+  1. [事件](#事件)
   1. [jQuery](#jquery)
-  1. [ECMAScript 5 Compatibility](#ecmascript-5-compatibility)
-  1. [ECMAScript 6+ (ES 2015+) Styles](#ecmascript-6-es-2015-styles)
-  1. [Testing](#testing)
+  1. [ECMAScript 5兼容性](#ECMAScript-5兼容性)
+  1. [测试](#测试)
 
-## Types
+## 类型
 
   <a name="1.1"></a>
   <a name="types--primitives"></a>
@@ -90,7 +89,7 @@ Other Style Guides
 
 **[⬆ back to top](#目录)**
 
-## References
+## 参考
 
   <a name="2.1"></a>
   <a name="references--prefer-const"></a>
@@ -144,7 +143,7 @@ Other Style Guides
 
 **[⬆ back to top](#目录)**
 
-## Objects
+## 对象
 
   <a name="3.1"></a>
   <a name="objects--no-new"></a>
@@ -330,7 +329,7 @@ Other Style Guides
 
 **[⬆ back to top](#目录)**
 
-## Arrays
+## 数组
 
   <a name="4.1"></a>
   <a name="arrays--literals"></a>
@@ -504,7 +503,7 @@ Other Style Guides
 
 **[⬆ back to top](#目录)**
 
-## Destructuring
+## 解构赋值
 
   <a name="5.1"></a>
   <a name="destructuring--object"></a>
@@ -577,7 +576,7 @@ Other Style Guides
 
 **[⬆ back to top](#目录)**
 
-## Strings
+## 字符串
 
   <a name="6.1"></a>
   <a name="strings--quotes"></a>
@@ -667,7 +666,7 @@ Other Style Guides
 **[⬆ back to top](#目录)**
 
 
-## Functions
+## 函数
 
   <a name="7.2"></a>
   <a name="functions--iife"></a>
@@ -942,7 +941,7 @@ Other Style Guides
 
 **[⬆ back to top](#目录)**
 
-## Arrow Functions
+## 箭头函数
 
   <a name="8.1"></a>
   <a name="arrows--use-them"></a>
@@ -1111,7 +1110,7 @@ Other Style Guides
 **[⬆ back to top](#目录)**
 
 
-## Classes & Constructors
+## 类和构造函数
 
   <a name="9.1"></a>
   <a name="constructors--use-class"></a>
@@ -1285,7 +1284,7 @@ Other Style Guides
 
 **[⬆ back to top](#目录)**
 
-## Modules
+## 模块
 
   <a name="10.1"></a>
   <a name="modules--use-them"></a>
@@ -1449,7 +1448,7 @@ Other Style Guides
 
 **[⬆ back to top](#目录)**
 
-## Iterators and Generators
+## 迭代器和生成器
 
   <a name="11.2"></a>
   <a name="generators--nope"></a>
@@ -1522,7 +1521,7 @@ Other Style Guides
 **[⬆ back to top](#目录)**
 
 
-## Properties
+## 属性
 
   <a name="12.1"></a>
   <a name="properties--dot"></a>
@@ -1573,7 +1572,7 @@ Other Style Guides
 **[⬆ back to top](#目录)**
 
 
-## Variables
+## 变量
 
   <a name="13.1"></a>
   <a name="variables--const"></a>
@@ -1778,7 +1777,7 @@ Other Style Guides
 
 **[⬆ back to top](#目录)**
 
-## Hoisting
+## 提升
 
   <a name="14.1"></a>
   <a name="hoisting--about"></a>
@@ -1834,7 +1833,7 @@ Other Style Guides
 **[⬆ back to top](#目录)**
 
 
-## Comparison Operators & Equality
+## 比较运算符
 
   <a name="15.1"></a>
   <a name="comparison--eqeqeq"></a>
@@ -1984,7 +1983,7 @@ Other Style Guides
 **[⬆ back to top](#目录)**
 
 
-## Blocks
+## 语句块
 
   <a name="16.1"></a>
   <a name="blocks--braces"></a>
@@ -2103,7 +2102,7 @@ Other Style Guides
 
 **[⬆ back to top](#目录)**
 
-## Control Statements
+## 控制语句
 
   <a name="17.1"></a>
   <a name="control-statements"></a>
@@ -2176,7 +2175,7 @@ Other Style Guides
 
 **[⬆ back to top](#目录)**
 
-## Comments
+## 注释
 
   <a name="18.1"></a>
   <a name="comments--multiline"></a>
@@ -2324,7 +2323,7 @@ Other Style Guides
 **[⬆ back to top](#目录)**
 
 
-## Whitespace
+## 空格
 
   <a name="19.1"></a>
   <a name="whitespace--spaces"></a>
@@ -2813,11 +2812,11 @@ Other Style Guides
 **[⬆ back to top](#目录)**
 
 ## 分号
-分号如果不加的话，一定要保证不能以 `(` 或 `[` 开头
+分号如果不加的话，每行代码一定要保证不能以 `(` 或 `[` 开头
 
 **[⬆ back to top](#目录)**
 
-## Type Casting & Coercion
+## 类型转换
 
   <a name="22.1"></a>
   <a name="coercion--explicit"></a>
@@ -2912,7 +2911,7 @@ Other Style Guides
 **[⬆ back to top](#目录)**
 
 
-## Naming Conventions
+## 命名规则
 
   <a name="23.1"></a>
   <a name="naming--descriptive"></a>
@@ -3155,7 +3154,7 @@ Other Style Guides
 **[⬆ back to top](#目录)**
 
 
-## Accessors
+## 访问器
 
   <a name="24.1"></a>
   <a name="accessors--not-required"></a>
@@ -3229,7 +3228,7 @@ Other Style Guides
 **[⬆ back to top](#目录)**
 
 
-## Events
+## 事件
 
   <a name="25.1"></a>
   <a name="events--hash"></a>
@@ -3336,7 +3335,7 @@ Other Style Guides
 **[⬆ back to top](#目录)**
 
 
-## ES5 兼容性
+## ECMAScript 5兼容性
 
   <a name="27.1"></a>
   <a name="es5-compat--kangax"></a>
@@ -3344,76 +3343,11 @@ Other Style Guides
 
 **[⬆ back to top](#目录)**
 
-## ECMAScript 6+ (ES 2015+) Styles
+
+
+## 测试
 
   <a name="28.1"></a>
-  <a name="es6-styles"></a>
-  - [28.1](#es6-styles) 这是收集到的各种ES6特性的链接
-
-1. [箭头函数——Arrow Functions](#arrow-functions)
-1. [类——Classes](#classes--constructors)
-1. [对象缩写——Object Shorthand](#es6-object-shorthand)
-1. [对象简写——Object Concise](#es6-object-concise)
-1. [对象计算属性——Object Computed Properties](#es6-computed-properties)
-1. [模板字符串——Template Strings](#es6-template-literals)
-1. [解构赋值——Destructuring](#destructuring)
-1. [默认参数——Default Parameters](#es6-default-parameters)
-1. [Rest](#es6-rest)
-1. [Array Spreads](#es6-array-spreads)
-1. [Let and Const](#references)
-1. [幂操作符——Exponentiation Operator](#es2016-properties--exponentiation-operator)
-1. [迭代器和生成器——Iterators and Generators](#iterators-and-generators)
-1. [模块——Modules](#modules)
-
-  <a name="28.2"></a>
-  <a name="tc39-proposals"></a>
-  - [28.2](#tc39-proposals) 不要用[TC39 proposals](https://github.com/tc39/proposals)， TC39还没有到 stage 3。
-
-    > Why? [它还不是最终版](https://tc39.github.io/process-document/), 他可能还有很多变化，或者被撤销。 我们想要用的是 JavaScript， 提议还不是JavaScript。
-
-**[⬆ back to top](#目录)**
-
-## Standard Library
-
-  [标准库](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects)中包含一些功能受损但是由于历史原因遗留的工具类
-
-  <a name="29.1"></a>
-  <a name="standard-library--isnan"></a>
-  - [29.1](#standard-library--isnan) 用 `Number.isNaN` 代替全局的 `isNaN`.
-    eslint: [`no-restricted-globals`](https://eslint.org/docs/rules/no-restricted-globals)
-
-    > Why? 全局 `isNaN` 强制把非数字转成数字， 然后对于任何强转后为 `NaN` 的变量都返回 `true`
-    > 如果你想用这个功能，就显式的用它。
-
-    ```javascript
-    // bad
-    isNaN('1.2'); // false
-    isNaN('1.2.3'); // true
-
-    // good
-    Number.isNaN('1.2.3'); // false
-    Number.isNaN(Number('1.2.3')); // true
-    ```
-
-  <a name="29.2"></a>
-  <a name="standard-library--isfinite"></a>
-  - [29.2](#standard-library--isfinite) 用 `Number.isFinite` 代替 `isFinite`.
-    eslint: [`no-restricted-globals`](https://eslint.org/docs/rules/no-restricted-globals)
-
-    > Why? 理由同上，会把一个非数字变量强转成数字，然后做判断。
-
-    ```javascript
-    // bad
-    isFinite('2e3'); // true
-
-    // good
-    Number.isFinite('2e3'); // false
-    Number.isFinite(parseInt('2e3', 10)); // true
-    ```
-
-## Testing
-
-  <a name="30.1"></a>
   <a name="testing--yup"></a>
   - [30.1](#testing--yup) **Yup.**
 
@@ -3423,9 +3357,9 @@ Other Style Guides
     }
     ```
 
-  <a name="30.2"></a>
+  <a name="28.2"></a>
   <a name="testing--for-real"></a>
-  - [30.2](#testing--for-real) **No, but seriously**:
+  - [28.2](#testing--for-real) **No, but seriously**:
    - 无论用那个测试框架，你都需要写测试。
    - 尽量去写很多小而美的纯函数，减少突变的发生
    - 小心 stub 和 mock —— 这会让你的测试变得脆弱。
