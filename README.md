@@ -2335,22 +2335,12 @@ Other Style Guides
 
   <a name="19.1"></a>
   <a name="whitespace--spaces"></a>
-  - [19.1](#whitespace--spaces) tab用两个空格. eslint: [`indent`](http://eslint.org/docs/rules/indent.html)
+  - [19.1](#whitespace--spaces) tab用4个空格. eslint: [`indent`](http://eslint.org/docs/rules/indent.html)
 
     ```javascript
-    // bad
+    // good
     function foo() {
     ∙∙∙∙const name;
-    }
-
-    // bad
-    function bar() {
-    ∙const name;
-    }
-
-    // good
-    function baz() {
-    ∙∙const name;
     }
     ```
 
