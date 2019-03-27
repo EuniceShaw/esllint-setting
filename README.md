@@ -676,38 +676,6 @@ Other Style Guides
 
 ## Functions
 
-  <a name="7.1"></a>
-  <a name="functions--declarations"></a>
-  - [7.1](#functions--declarations) 用命名函数表达式而不是函数声明。eslint: [`func-style`](http://eslint.org/docs/rules/func-style)
-
-    > 函数表达式： const func = function () {}
-
-    > 函数声明： function func() {}
-
-    > Why? 函数声明时作用域被提前了，这意味着在一个文件里函数很容易（太容易了）在其定义之前被引用。这样伤害了代码可读性和可维护性。如果你发现一个函数有大又复杂，这个函数妨碍这个文件其他部分的理解性，这可能就是时候把这个函数单独抽成一个模块了。别忘了给表达式显示的命名，不用管这个名字是不是由一个确定的变量推断出来的，这消除了由匿名函数在错误调用栈产生的所有假设，这在现代浏览器和类似babel编译器中很常见 ([Discussion](https://github.com/airbnb/javascript/issues/794))
-
-    > Why? 这一段还不理解这种错误发生的场景，所以只能直译过来了， 另附[原文](https://github.com/airbnb/javascript#functions--declarations)
-    > Why? Function declarations are hoisted, which means that it’s easy - too easy - to reference the function before it is defined in the file. This harms readability and maintainability. If you find that a function’s definition is large or complex enough that it is interfering with understanding the rest of the file, then perhaps it’s time to extract it to its own module! Don’t forget to explicitly name the expression, regardless of whether or not the name is inferred from the containing variable (which is often the case in modern browsers or when using compilers such as Babel). This eliminates any assumptions made about the Error’s call stack. ([Discussion](https://github.com/airbnb/javascript/issues/794))
-
-    ```javascript
-    // bad
-    function foo() {
-      // ...
-    }
-
-    // bad
-    const foo = function () {
-      // ...
-    };
-
-    // good
-    // lexical name distinguished from the variable-referenced invocation(s)
-    // 函数表达式名和声明的函数名是不一样的
-    const short = function longUniqueMoreDescriptiveLexicalFoo() {
-      // ...
-    };
-    ```
-
   <a name="7.2"></a>
   <a name="functions--iife"></a>
   - [7.2](#functions--iife) 把立即执行函数包裹在圆括号里。 eslint: [`wrap-iife`](http://eslint.org/docs/rules/wrap-iife.html)
