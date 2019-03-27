@@ -40,7 +40,6 @@ Other Style Guides
   1. [Comments](#comments)
   1. [Whitespace](#whitespace)
   1. [Commas](#commas)
-  1. [Semicolons](#semicolons)
   1. [Type Casting & Coercion](#type-casting--coercion)
   1. [Naming Conventions](#naming-conventions)
   1. [Accessors](#accessors)
@@ -2820,37 +2819,6 @@ Other Style Guides
 
 **[⬆ back to top](#目录)**
 
-
-## Semicolons
-
-  <a name="21.1"></a>
-  - [21.1](#21.1) **Yup.** eslint: [`semi`](http://eslint.org/docs/rules/semi.html)
-
-    > Why? 当 JavaScript 遇到没有分号结尾的一行，它会执行[自动插入分号 `Automatic Semicolon Insertion`](https://tc39.github.io/ecma262/#sec-automatic-semicolon-insertion)这一规则来决定行末是否加分号。如果JavaScript在你的断行里错误的插入了分号，就会出现一些古怪的行为。当新的功能加到JavaScript里后， 这些规则会变得更复杂难懂。显示的结束语句，并通过配置代码检查去捕获没有带分号的地方可以帮助你防止这种错误。
-
-    ```javascript
-    // bad
-    (function () {
-      const name = 'Skywalker'
-      return name
-    })()
-
-    // good
-    (function () {
-      const name = 'Skywalker';
-      return name;
-    }());
-
-    // good, 行首加分号，避免文件被连接到一起时立即执行函数被当做变量来执行。
-    ;(() => {
-      const name = 'Skywalker';
-      return name;
-    }());
-    ```
-
-    [Read more](https://stackoverflow.com/questions/7365172/semicolon-before-self-invoking-function/7365214%237365214).
-
-**[⬆ back to top](#目录)**
 
 
 ## Type Casting & Coercion
