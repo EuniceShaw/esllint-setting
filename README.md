@@ -39,7 +39,7 @@ Other Style Guides
   1. [控制语句](#控制语句)
   1. [注释](#注释)
   1. [空格](#空格)
-  1. [Commas](#commas)
+  1. [逗号](#逗号)
   1. [分号](#分号)
   1. [类型转换](#类型转换)
   1. [命名规则](#命名规则)
@@ -2674,7 +2674,7 @@ Other Style Guides
 
 **[⬆ back to top](#目录)**
 
-## Commas
+## 逗号
 
   <a name="20.1"></a>
   <a name="commas--leading-trailing"></a>
