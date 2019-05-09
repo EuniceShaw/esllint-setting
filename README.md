@@ -940,7 +940,7 @@
 
   <a name="8.4"></a>
   <a name="arrows--one-arg-parens"></a>
-  - [8.4](#arrows--one-arg-parens) 如果你的函数只有一个参数并且函数体没有大括号，就删除圆括号。否则，参数总是放在圆括号里。 注意： 一直用圆括号也是没问题，只需要配置 [“always” option](https://eslint.org/docs/rules/arrow-parens#always) for eslint. eslint: [`arrow-parens`](https://eslint.org/docs/rules/arrow-parens.html)
+  - [8.4](#arrows--one-arg-parens) 如果你的函数只有一个参数，就删除圆括号。否则，参数总是放在圆括号里。 注意： 一直用圆括号也是没问题，只需要配置 [“always” option](https://eslint.org/docs/rules/arrow-parens#always) for eslint. eslint: [`arrow-parens`](https://eslint.org/docs/rules/arrow-parens.html)
 
     > Why? 这样少一些混乱， 其实没啥语法上的讲究，就保持一个风格。
 
@@ -955,18 +955,6 @@
     [1, 2, 3].map(number => (
       `A long string with the ${number}. It’s so long that we don’t want it to take up space on the .map line!`
     ));
-
-    // bad
-    [1, 2, 3].map(x => {
-      const y = x + 1;
-      return x * y;
-    });
-
-    // good
-    [1, 2, 3].map((x) => {
-      const y = x + 1;
-      return x * y;
-    });
     ```
 
   <a name="8.5"></a>
@@ -977,11 +965,8 @@
     // bad
     const itemHeight = item => item.height > 256 ? item.largeSize : item.smallSize;
 
-    // bad
-    const itemHeight = (item) => item.height > 256 ? item.largeSize : item.smallSize;
-
     // good
-    const itemHeight = item => (item.height > 256 ? item.largeSize : item.smallSize);
+    const itemHeight = (item) => item.height > 256 ? item.largeSize : item.smallSize;
 
     // good
     const itemHeight = (item) => {
