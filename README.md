@@ -819,53 +819,6 @@
     const y = function a() {};
     ```
 
-  <a name="7.12"></a>
-  <a name="functions--mutate-params"></a>
-  - [7.12](#functions--mutate-params) 不要改参数. eslint: [`no-param-reassign`](http://eslint.org/docs/rules/no-param-reassign.html)
-
-    > Why? 操作参数对象对原始调用者会导致意想不到的副作用。 就是不要改参数的数据结构，保留参数原始值和数据结构。
-
-    ```javascript
-    // bad
-    function f1(obj) {
-      obj.key = 1;
-    };
-
-    // good
-    function f2(obj) {
-      const key = Object.prototype.hasOwnProperty.call(obj, 'key') ? obj.key : 1;
-    };
-    ```
-
-  <a name="7.13"></a>
-  <a name="functions--reassign-params"></a>
-  - [7.13](#functions--reassign-params) 不要对参数重新赋值。 eslint: [`no-param-reassign`](http://eslint.org/docs/rules/no-param-reassign.html)
-
-    > Why? 参数重新赋值会导致意外行为，尤其是对 `arguments`。这也会导致优化问题，特别是在V8里
-
-    ```javascript
-    // bad
-    function f1(a) {
-      a = 1;
-      // ...
-    }
-
-    function f2(a) {
-      if (!a) { a = 1; }
-      // ...
-    }
-
-    // good
-    function f3(a) {
-      const b = a || 1;
-      // ...
-    }
-
-    function f4(a = 1) {
-      // ...
-    }
-    ```
-
   <a name="7.14"></a>
   <a name="functions--spread-vs-apply"></a>
   - [7.14](#functions--spread-vs-apply) 用`spread`操作符`...`去调用多变的函数更好。 eslint: [`prefer-spread`](http://eslint.org/docs/rules/prefer-spread)
