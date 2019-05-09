@@ -819,9 +819,9 @@
     const y = function a() {};
     ```
 
-  <a name="7.14"></a>
+  <a name="7.12"></a>
   <a name="functions--spread-vs-apply"></a>
-  - [7.14](#functions--spread-vs-apply) 用`spread`操作符`...`去调用多变的函数更好。 eslint: [`prefer-spread`](http://eslint.org/docs/rules/prefer-spread)
+  - [7.12](#functions--spread-vs-apply) 用`spread`操作符`...`去调用多变的函数更好。 eslint: [`prefer-spread`](http://eslint.org/docs/rules/prefer-spread)
 
     > Why? 这样更清晰，你不必提供上下文，而且你不能轻易地用`apply`来组成`new`
 
@@ -841,39 +841,6 @@
     new Date(...[2016, 8, 5]);
     ```
 
-  <a name="7.15"></a>
-  <a name="functions--signature-invocation-indentation"></a>
-  - [7.15](#functions--signature-invocation-indentation) 调用或者书写一个包含多个参数的函数应该想这个指南里的其他多行代码写法一样： 每行值包含一个参数，每行逗号结尾。
-
-    ```javascript
-    // bad
-    function foo(bar,
-                 baz,
-                 quux) {
-      // ...
-    }
-
-    // good 缩进不要太过分
-    function foo(
-      bar,
-      baz,
-      quux,
-    ) {
-      // ...
-    }
-
-    // bad
-    console.log(foo,
-      bar,
-      baz);
-
-    // good
-    console.log(
-      foo,
-      bar,
-      baz,
-    );
-    ```
 
 **[⬆ back to top](#目录)**
 
