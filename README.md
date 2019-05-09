@@ -3227,9 +3227,9 @@
 
 ## 测试
 
-  <a name="28.1"></a>
+  <a name="27.1"></a>
   <a name="testing--yup"></a>
-  - [28.1](#testing--yup) **Yup.**
+  - [27.1](#testing--yup) **Yup.**
 
     ```javascript
     function foo() {
@@ -3237,9 +3237,9 @@
     }
     ```
 
-  <a name="28.2"></a>
+  <a name="27.2"></a>
   <a name="testing--for-real"></a>
-  - [28.2](#testing--for-real) **No, but seriously**:
+  - [27.2](#testing--for-real) **No, but seriously**:
    - 无论用那个测试框架，你都需要写测试。
    - 尽量去写很多小而美的纯函数，减少突变的发生
    - 小心 stub 和 mock —— 这会让你的测试变得脆弱。
