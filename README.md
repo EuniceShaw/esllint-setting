@@ -29,7 +29,6 @@
   1. [访问器](#访问器)
   1. [事件](#事件)
   1. [jQuery](#jquery)
-  1. [ECMAScript 5兼容性](#ECMAScript-5兼容性)
   1. [测试](#测试)
 
 ## 类型
@@ -3223,13 +3222,6 @@
 **[⬆ back to top](#目录)**
 
 
-## ECMAScript 5兼容性
-
-  <a name="27.1"></a>
-  <a name="es5-compat--kangax"></a>
-  - [27.1](#es5-compat--kangax) 参考[Kangax](https://twitter.com/kangax/)的ES5[兼容性列表](https://kangax.github.io/es5-compat-table/).
-
-**[⬆ back to top](#目录)**
 
 
 
